@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CD785C74216C25DB00AF2F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD785C73216C25DB00AF2F74 /* AppDelegate.swift */; };
-		CD785C76216C25DB00AF2F74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD785C75216C25DB00AF2F74 /* ViewController.swift */; };
 		CD785C79216C25DB00AF2F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD785C77216C25DB00AF2F74 /* Main.storyboard */; };
 		CD785C7B216C25E200AF2F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD785C7A216C25E200AF2F74 /* Assets.xcassets */; };
 		CD785C7E216C25E200AF2F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD785C7C216C25E200AF2F74 /* LaunchScreen.storyboard */; };
+		CDBC3991216D46DB00F619AD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC3990216D46DB00F619AD /* Helper.swift */; };
+		CDC22440216CEF74009EC36A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC2243F216CEF74009EC36A /* LoginVC.swift */; };
+		CDC22442216D17AD009EC36A /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22441216D17AD009EC36A /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD785C70216C25DB00AF2F74 /* FacebookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD785C73216C25DB00AF2F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD785C75216C25DB00AF2F74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD785C78216C25DB00AF2F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD785C7A216C25E200AF2F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD785C7D216C25E200AF2F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD785C7F216C25E200AF2F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBC3990216D46DB00F619AD /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CDC2243F216CEF74009EC36A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CDC22441216D17AD009EC36A /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		CD785C72216C25DB00AF2F74 /* FacebookClone */ = {
 			isa = PBXGroup;
 			children = (
+				CDBC3990216D46DB00F619AD /* Helper.swift */,
 				CD785C73216C25DB00AF2F74 /* AppDelegate.swift */,
-				CD785C75216C25DB00AF2F74 /* ViewController.swift */,
 				CD785C77216C25DB00AF2F74 /* Main.storyboard */,
+				CDC2243F216CEF74009EC36A /* LoginVC.swift */,
+				CDC22441216D17AD009EC36A /* RegisterVC.swift */,
 				CD785C7A216C25E200AF2F74 /* Assets.xcassets */,
 				CD785C7C216C25E200AF2F74 /* LaunchScreen.storyboard */,
 				CD785C7F216C25E200AF2F74 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD785C76216C25DB00AF2F74 /* ViewController.swift in Sources */,
+				CDC22442216D17AD009EC36A /* RegisterVC.swift in Sources */,
+				CDBC3991216D46DB00F619AD /* Helper.swift in Sources */,
 				CD785C74216C25DB00AF2F74 /* AppDelegate.swift in Sources */,
+				CDC22440216CEF74009EC36A /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
